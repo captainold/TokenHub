@@ -1,3 +1,7 @@
+> **⚠️ 本机部署（Windows 老温机器）先读 [`deploy/local/LOCAL-OPS.md`](deploy/local/LOCAL-OPS.md)。**
+> 本机实例是手工 `docker run` 的单容器，**不要用 `docker compose` 启停**（会按 `deploy/.env` 重建容器并改名，配置错乱）。
+> 启动：`docker start tokenhub-backend` 或 `bash deploy/local/ops.sh start`；健康、升级、回滚见该手册。
+
 # TokenHub Agent Guide
 
 ## Repository overview
